@@ -30,3 +30,9 @@ variable "public_subnets" {
   }
 
 }
+
+
+variable "ingress-ssh" {
+  default = "0.0.0.0/0"
+
+}
